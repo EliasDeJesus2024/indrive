@@ -1,11 +1,10 @@
-class FooterInDrive extends HTMLElement {
+class FooterUber extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <footer class="bg-[#2c2c2c] text-white text-sm">
-        <!-- Sección superior -->
         <div class="max-w-7xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/InDrive_logo_2022.svg/2560px-InDrive_logo_2022.svg.png" alt="inDrive" class="h-8 mb-6" />
+            <img src="https://th.bing.com/th/id/R.ee430489d1505483166c19ab9ed00d4e?rik=9h%2bv%2fqv8kXnGKQ&pid=ImgRaw&r=0" alt="Uber" class="h-8 mb-6" />
           </div>
           <div>
             <h4 class="font-bold mb-2">Nuestros servicios</h4>
@@ -14,18 +13,18 @@ class FooterInDrive extends HTMLElement {
               <li><a href="#" class="hover:underline">Viajes Ciudad a Ciudad</a></li>
               <li><a href="#" class="hover:underline">Envíos</a></li>
               <li><a href="#" class="hover:underline">Fletes</a></li>
-              <li><a href="#" class="hover:underline">¿Por qué inDrive?</a></li>
+              <li><a href="#" class="hover:underline">¿Por qué Uber?</a></li>
             </ul>
           </div>
           <div>
-            <h4 class="font-bold mb-2">Gana con inDrive</h4>
+            <h4 class="font-bold mb-2">Gana con Uber</h4>
             <ul class="space-y-1 text-gray-300">
               <li><a href="#" class="hover:underline">Viajes en la ciudad</a></li>
               <li><a href="#" class="hover:underline">Viajes Ciudad a Ciudad</a></li>
               <li><a href="#" class="hover:underline">Envíos</a></li>
               <li><a href="#" class="hover:underline">Fletes</a></li>
-              <li><a href="#" class="hover:underline">inDrive.Money</a></li>
-              <li><a href="#" class="hover:underline">¿Por qué inDrive?</a></li>
+              <li><a href="#" class="hover:underline">Uber.Money</a></li>
+              <li><a href="#" class="hover:underline">¿Por qué Uber?</a></li>
             </ul>
           </div>
           <div>
@@ -33,7 +32,7 @@ class FooterInDrive extends HTMLElement {
             <ul class="space-y-1 text-gray-300 mb-4">
               <li><a href="#" class="hover:underline">Envíos</a></li>
               <li><a href="#" class="hover:underline">Fletes</a></li>
-              <li><a href="#" class="hover:underline">¿Por qué inDrive?</a></li>
+              <li><a href="#" class="hover:underline">¿Por qué Uber?</a></li>
             </ul>
             <h4 class="font-bold mb-2">Seguridad</h4>
           </div>
@@ -51,15 +50,15 @@ class FooterInDrive extends HTMLElement {
               <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" class="h-6 w-6 rounded-full bg-lime-400 p-1" alt="TikTok" /></a>
             </div>
             <p class="text-gray-400 text-xs leading-relaxed">
-              inDrive facilita la conexión entre prestadores de servicios y clientes; no es un servicio de transporte público.
-              inDrive no es responsable de los acuerdos generados entre usuarios.
+              Uber facilita la conexión entre prestadores de servicios y clientes; no es un servicio de transporte público.
+              Uber no es responsable de los acuerdos generados entre usuarios.
             </p>
             <ul class="text-gray-400 text-xs mt-4 space-y-1">
               <li><a href="#" class="hover:underline">Política de privacidad</a></li>
               <li><a href="#" class="hover:underline">Condiciones generales de uso</a></li>
-              <li><a href="#" class="hover:underline">Condiciones de uso inDrive.City to City</a></li>
-              <li><a href="#" class="hover:underline">Condiciones de uso inDrive.Freight</a></li>
-              <li><a href="#" class="hover:underline">Condiciones de uso inDrive.Services</a></li>
+              <li><a href="#" class="hover:underline">Condiciones de uso Uber.City to City</a></li>
+              <li><a href="#" class="hover:underline">Condiciones de uso Uber.Freight</a></li>
+              <li><a href="#" class="hover:underline">Condiciones de uso Uber.Services</a></li>
             </ul>
           </div>
 
@@ -104,4 +103,5 @@ class FooterInDrive extends HTMLElement {
   }
 }
 
-customElements.define('footer-indrive', FooterInDrive);
+customElements.define('footer-uber', FooterUber);
+
